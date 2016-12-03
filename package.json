@@ -1,10 +1,36 @@
 {
-	"name": "node-api",
-    "main": "server.js",
-    "dependencies": {
-        "express": "~4.0.0",
-		"jade": "*",
-        "mongoose": "~3.6.13",
-        "body-parser": "~1.0.1"
-    }
+  "name": "palindrome-api",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "chai": "^3.5.0",
+    "express": "~4.0.0",
+    "jade": "*",
+    "jquery": "^3.1.1",
+    "materialize-css": "^0.97.8",
+    "mongoose": "~3.6.13",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "Node and npm",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaimera/Palindrome.git"
+  },
+  "author": "Jaime Yule Jacobson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaimera/Palindrome/issues"
+  },
+  "homepage": "https://github.com/Jaimera/Palindrome#readme",
+  "keywords": [
+    "palindrome",
+    "node",
+    "javascript",
+    "angular"
+  ]
 }
