@@ -27,7 +27,7 @@ describe('palindrome', function() {
 });
 
 describe('palindrome', function() {
-  it('verifyWord() should return false if the param is A MAN A PLAN A CANAL PANAMA', function() {
+  it('verifyWord() should return true if the param is A MAN A PLAN A CANAL PANAMA', function() {
     expect(palindrome.verifyWord('A MAN A PLAN A CANAL PANAMA')).to.equal(true);
   });
 });
